@@ -27,3 +27,14 @@ describe("calcInventoryValue", () => {
     expect(value).toBe(0);
   });
 });
+
+
+// describe("InventoryItem interface exists with product (Product) and quantity (number) properties.", () => {
+//   test("name is a string", () =>{
+//     interface InventoryItem {
+//       quantity: number;
+//       product: Product
+//   }
+//     expect(InventoryItem).toContain("");
+//   });
+// });
